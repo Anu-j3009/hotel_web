@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcomhotel by ITC</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body style="margin:0; font-family:Arial, sans-serif; background:#f4f4f4;">
+
+<!-- TOP HEADING -->
+<div style="background:#ffffff; padding:15px; text-align:center;">
+  <h1 style="margin:0; color:#003366;">
+    Welcomhotel by ITC
+  </h1>
+</div>
+
+<!-- VIDEO SECTION -->
+<video width="100%" autoplay muted controls>
+  <source src="video.mp4" type="video/mp4">
+</video>
+
+<!-- DETAILS SECTION WITH WATERMARK -->
+<div style="
+  max-width:900px;
+  margin:auto;
+  background:#ffffff;
+  padding:30px;
+  position:relative;
+  background-image:url('watermark.png');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:300px;
+">
+
+  <!-- TRANSPARENCY OVERLAY -->
+  <div style="
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background:rgba(255,255,255,0.80);
+    z-index:0;
+  "></div>
+
+  <!-- CONTENT -->
+  <div style="position:relative; z-index:1;">
+
+    <!-- LOGO + HOTEL NAME -->
+    <div style="display:flex; align-items:center; justify-content:center; gap:15px; flex-wrap:nowrap;">
+      <img src="logo.png" alt="ITC Logo" style="height:60px;">
+      <h2 style="margin:0; color:#003366; white-space:nowrap; font-size:22px;">
+        ITC HOTELS LIMITED
+      </h2>
+    </div>
+
+    <!-- LOCATION -->
+    <h3 style="margin-top:25px;">📍 Location</h3>
+    <p>
+      Old Tilwara Road, Bargi Hills, Sagra,<br>
+      Jabalpur (482003) M.P
+    </p>
+
+    <!-- CONTACT DETAILS -->
+    <h3>👥 Contact Details</h3>
+    <p>
+      📞 <a href="tel:+9107613511111">+91 07613511111</a><br>
+      ✉️ <a href="mailto:reservations@itchotels.com">reservations@itchotels.com</a>
+    </p>
+
+    <!-- TOLL FREE -->
+    <h3>☎️ Toll Free Reservation</h3>
+    <p>
+      <a href="tel:18004196444">1-800-419-6444</a><br>
+      <a href="tel:18001022333">1-800-102-2333</a>
+    </p>
+
+  </div>
+</div>
+
+</body>
+</html>
